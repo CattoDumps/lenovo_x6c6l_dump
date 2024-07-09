@@ -1,0 +1,16 @@
+{
+  "itemConfig": [
+    {
+      "showName": "OTG",
+      "support": true,
+      "action": "com.mmigroup.action.OTG",
+      "paramconfig": {
+        "is_show_storage": true,
+        "support_typec": true
+      },
+      "No_Battery_WIFI": {
+        "support": true
+      }
+    }
+   ]
+}

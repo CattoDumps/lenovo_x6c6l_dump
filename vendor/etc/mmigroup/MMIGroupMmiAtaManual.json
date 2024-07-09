@@ -1,0 +1,40 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "TouchPal"
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_draw": false,
+        "support_test": true,
+        "self_calibrate": false
+      }
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "Battery",
+      "paramconfig": {
+        "support_afc_charge": false
+      }
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "DualSIMCard"
+    },
+    {
+      "showName": "NFC"
+    }
+  ]
+}

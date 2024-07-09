@@ -1,0 +1,23 @@
+<!--
+    Input:
+        omadm_framework_compatibility_matrix.xml
+        dax_framework_compatibility_matrix.xml
+-->
+<compatibility-matrix version="4.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.lenovo.hardware.persist_storage</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFileUtils</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

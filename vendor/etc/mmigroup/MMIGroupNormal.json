@@ -1,0 +1,217 @@
+{
+  "call": {
+    "com.mmigroup.radiosupport.GSM": false,
+    "com.mmigroup.radiosupport.CDMA": false,
+    "com.mmigroup.radiosupport.TDCDMA": false,
+    "com.mmigroup.radiosupport.WCDMA": false,
+    "com.mmigroup.radiosupport.TDD": false,
+    "com.mmigroup.radiosupport.FDD": false,
+    "com.mmigroup.radiosupport.LENOVO_BT": true,
+    "com.mmigroup.radiosupport.5G": false
+  },
+  "itemConfig": [
+    {
+      "showName": "VersionInfo",
+      "paramconfig": {
+        "support_camera_match": false,
+        "AddInfo": {
+          "SecureBoot": "any",
+          "TPcolor": "any",
+          "TP": "any",
+          "CameraInfo": "any",
+          "BuildNumber": "any",
+          "BaseBandVersion": "any",
+          "KernelVersion": "any",
+          "LCM": "any",
+          "System_Verity": "true",
+          "verifiedbootstate": "green"
+        }
+      }
+    },
+    {
+      "showName": "DualSIMCard"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "KeyPad",
+      "paramconfig": {
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN",
+          "POWER"
+        ]
+      }
+    },
+    {
+      "showName": "Vibrator",
+      "action": "com.mmigroup.action.RANDOMVIBRATER",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "randomLongInterval": [
+          6,
+          500,
+          2000
+        ],
+        "randomShortInterval": [
+          6,
+          200,
+          200
+        ]
+      }
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_R=2000",
+          "Color_G=2000",
+          "Color_B=2000",
+          "Color_W=2000",
+          "Color_BL=2000",
+          "Color_GR127=2000"
+        ]
+      }
+    },
+    {
+      "showName": "Flashlight"
+    },
+    {
+      "showName": "TouchPanel"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "MainCamera",
+      "paramconfig": {
+        "takepicture_not_save_picture": true
+      }
+    },
+    {
+      "showName": "FrontCamera",
+      "paramconfig": {
+        "takepicture_not_save_picture": true
+      }
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "ThubOTG",
+      "No_Battery_Master_LTE": {
+        "support": false
+      },
+      "No_Battery_NA_LTE": {
+        "support": false
+      },
+      "No_Battery_WIFI": {
+        "support": false
+      }
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": false
+      }
+    },
+    {
+      "showName": "Optical",
+ 	"support_autoTest_autopass": false
+    },
+    {
+      "showName": "Proximity",
+      "paramconfig": {
+        "distance_tolerance": 0.5,
+        "support_near_far_mode": true
+      }
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": false
+      }
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_self_test": false,
+        "support_calibrate": false,
+        "support_draw": false,
+        "magnetism_tolerance": 0.1,
+        "self_calibrate": false
+      }
+    },
+    {
+      "showName": "Sar",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "hasBtn": true
+      }
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "LeftSpeaker"
+    },
+    {
+      "showName": "RightSpeaker"
+    },
+    {
+      "showName": "MainMicToHeadPhone",
+        "paramconfig": {
+           "volume_rate": 0.7
+        }
+    },
+    {
+      "showName": "SubMicToHeadPhone",
+        "paramconfig": {
+           "volume_rate": 0.7
+        }
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "volume_rate": 0.7,
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "paramconfig": {
+        "volume_rate": 0.7,
+        "needHeadsetUnPlug": true
+      }
+    },
+    {
+      "showName": "FM",
+      "paramconfig": {
+        "volume_rate": 0.7,
+        "needHeadsetUnPlug": true
+      }
+    }
+  ]
+}

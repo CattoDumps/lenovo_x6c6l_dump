@@ -1,0 +1,25 @@
+service setwlansarone /system/bin/setwlansarone.sh
+    disabled
+    user root
+    oneshot
+#    seclabel u:r:wlansar:s0
+
+service setwlansartwo /system/bin/setwlansartwo.sh
+    disabled
+    user root
+    oneshot
+#    seclabel u:r:wlansar:s0
+
+service setwlansarthree /system/bin/setwlansarthree.sh
+    disabled
+    user root
+    oneshot
+    group root root
+#    seclabel u:r:wlansar:s0
+
+service setwlansarclose /system/bin/setwlansarclose.sh
+    disabled
+    user root
+    oneshot
+#    seclabel u:r:diag:s0
+

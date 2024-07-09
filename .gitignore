@@ -1,0 +1,9 @@
+product/app/OneNote/OneNote.apk
+product/app/WebViewGoogle/WebViewGoogle.apk
+product/app/Messages/Messages.apk
+product/priv-app/GmsCore/GmsCore.apk
+product/priv-app/InstantMemo/InstantMemo.apk
+product/priv-app/Velvet/Velvet.apk
+system/system/app/YandexSearch/YandexSearch.apk
+system/system/app/YandexBrowser/YandexBrowser.apk
+system/system/system_ext/apex/com.android.vndk.v30.apex

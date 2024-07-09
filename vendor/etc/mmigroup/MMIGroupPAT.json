@@ -1,0 +1,92 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "DualSIMCard"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "KeyPad",
+      "action": "com.mmigroup.action.KEYEVENT",
+      "paramconfig": {
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN",
+          "POWER"
+        ]
+      }
+    },
+    {
+      "showName": "Vibrator",
+      "action": "com.mmigroup.action.RANDOMVIBRATER",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "randomLongInterval": [
+          6,
+          500,
+          2000
+        ],
+        "randomShortInterval": [
+          6,
+          200,
+          200
+        ]
+      }
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "ThubOTG"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "LeftSpeaker"
+    },
+    {
+      "showName": "RightSpeaker"
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "SubMicToHeadPhone"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "paramconfig": {
+        "needHeadsetUnPlug": true
+      }
+    },
+    {
+      "showName": "FM",
+      "paramconfig": {
+        "needHeadsetUnPlug": true
+      }
+    }
+  ]
+}

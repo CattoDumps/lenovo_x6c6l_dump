@@ -1,0 +1,7 @@
+service shippingmode_off /vendor/bin/shippingmode_off
+    user root
+    group system
+    oneshot
+
+on property:sys.shippingmode0=false
+    start shippingmode_off

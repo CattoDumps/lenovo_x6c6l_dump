@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overrides>
+    <change-overrides changeId="174042936">
+        <validated>
+            <override-value packageName="com.lenovo.anyshare.gps" enabled="true">
+            </override-value>
+            <override-value packageName="com.zhiliaoapp.musically" enabled="true">
+            </override-value>
+            <override-value packageName="ru.mail.search.electroscope" enabled="true">
+            </override-value>
+            <override-value packageName="com.netease.cloudmusic" enabled="true">
+            </override-value>
+            <override-value packageName="com.outfit7.mytalkingtomfree" enabled="true">
+            </override-value>
+            <override-value packageName="com.autonavi.minimap" enabled="true">
+            </override-value>
+            <override-value packageName="com.tencent.ibg.joox" enabled="true">
+            </override-value>
+            <override-value packageName="com.lenovotab.camera" enabled="true">
+            </override-value>
+            <override-value packageName="com.mediatek.camera" enabled="true">
+            </override-value>
+        </validated>
+        <raw>
+            <raw-override-value packageName="com.lenovo.anyshare.gps" minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807" enabled="true">
+            </raw-override-value>
+            <raw-override-value packageName="com.zhiliaoapp.musically" minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807" enabled="true">
+            </raw-override-value>
+            <raw-override-value packageName="ru.mail.search.electroscope" minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807" enabled="true">
+            </raw-override-value>
+            <raw-override-value packageName="com.netease.cloudmusic" minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807" enabled="true">
+            </raw-override-value>
+            <raw-override-value packageName="com.outfit7.mytalkingtomfree" minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807" enabled="true">
+            </raw-override-value>
+            <raw-override-value packageName="com.autonavi.minimap" minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807" enabled="true">
+            </raw-override-value>
+            <raw-override-value packageName="com.tencent.ibg.joox" minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807" enabled="true">
+            </raw-override-value>
+            <raw-override-value packageName="com.lenovotab.camera" minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807" enabled="true">
+            </raw-override-value>
+            <raw-override-value packageName="com.mediatek.camera" minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807" enabled="true">
+            </raw-override-value>
+        </raw>
+    </change-overrides>
+</overrides>

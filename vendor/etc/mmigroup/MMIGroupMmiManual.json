@@ -1,0 +1,182 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "MainSIMCard"
+    },
+    {
+      "showName": "DualSIMCard"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "KeyPad",
+      "paramconfig": {
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN",
+          "POWER"
+        ]
+      }
+    },
+    {
+      "showName": "Vibrator",
+      "action": "com.mmigroup.action.RANDOMVIBRATER",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "randomLongInterval": [
+          6,
+          500,
+          2000
+        ],
+        "randomShortInterval": [
+          6,
+          200,
+          200
+        ]
+      }
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_R=2000",
+          "Color_G=2000",
+          "Color_B=2000",
+          "Color_W=2000",
+          "Color_BL=2000",
+          "Color_GR127=2000"
+        ]
+      }
+    },
+    {
+      "showName": "Flashlight"
+    },
+    {
+      "showName": "TouchPanel"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "ThubOTG"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "Accelerometer"
+    },
+    {
+      "showName": "Optical",
+ 	"support_autoTest_autopass": false
+    },
+    {
+      "showName": "Proximity_C",
+      "action": "com.mmigroup.action.PROXIMITY_LENOVO",
+      "paramconfig": {
+        "rawData": {
+          "min": 0,
+          "max": 500
+        },
+        "distance_tolerance": 0.5,
+        "support_near_far_mode": true,
+        "do_calibration": {
+          "support": true,
+          "noCover": {
+            "min": 0,
+            "max": 500
+          },
+          "15cm_Cover": {
+            "min": 0,
+            "max": 500
+          },
+          "calibration_scheme": "lenovo_mtk"
+        }
+      }
+    },
+    {
+      "showName": "Proximity",
+      "paramconfig": {
+        "distance_tolerance": 0.5,
+        "support_near_far_mode": true
+      }
+    },
+    {
+      "showName": "Gyroscope"
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Magnetic"
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "LeftSpeaker"
+    },
+    {
+      "showName": "RightSpeaker"
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "SubMicToHeadPhone"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "paramconfig": {
+        "needHeadsetUnPlug": true
+      }
+    },
+    {
+      "showName": "FM",
+      "paramconfig": {
+        "needHeadsetUnPlug": true
+      }
+    },
+    {
+      "showName": "Sar",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "hasBtn": true
+      }
+    }
+  ]
+}

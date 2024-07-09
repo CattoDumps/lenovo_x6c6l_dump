@@ -1,0 +1,81 @@
+{
+  "itemConfig": [
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "TouchPanel"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "Flashlight"
+    },
+    {
+      "showName": "LCD"
+    },
+    {
+      "showName": "Accelerometer"
+    },
+    {
+      "showName": "Flashlight",
+ 	"support_autoTest_autopass": false
+    },
+    {
+      "showName": "Proximity_C",
+      "action": "com.mmigroup.action.PROXIMITY_LENOVO",
+      "paramconfig": {
+        "rawData": {
+          "min": 0,
+          "max": 500
+        },
+        "distance_tolerance": 0.5,
+        "support_near_far_mode": true,
+        "do_calibration": {
+          "support": true,
+          "noCover": {
+            "min": 0,
+            "max": 500
+          },
+          "15cm_Cover": {
+            "min": 0,
+            "max": 500
+          },
+          "calibration_scheme": "lenovo_mtk"
+        }
+      }
+    },
+    {
+      "showName": "Proximity",
+      "paramconfig": {
+        "distance_tolerance": 0.5,
+        "support_near_far_mode": true
+      }
+    },
+    {
+      "showName": "Gyroscope"
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Magnetic"
+    },
+    {
+      "showName": "Sar",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "hasBtn": true
+      }
+    }
+  ]
+}

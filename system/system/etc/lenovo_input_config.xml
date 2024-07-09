@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input_config>
+	<pkg_list type="pen_key_control_camara">		
+		<item pkg="com.lenovotab.camera"/>
+	</pkg_list>
+	<pkg_list type="pen_key_control_ppt">			
+		<item pkg="com.microsoft.office.officehubrow"/>
+		<item pkg="com.microsoft.office.powerpoint"/>
+		<item pkg="com.google.android.apps.docs.editors.slides"/>
+		<item pkg="cn.wps.moffice_eng"/>
+		<item pkg="com.mobisystems.office"/>
+		<item pkg="com.infraware.office.link"/>
+	</pkg_list>
+	<pkg_list type="pen_stylus_button">		
+		<item pkg="com.wacom.bamboopapertab"/>
+		<item pkg="com.steadfastinnovation.android.projectpapyrus"/>
+	</pkg_list>
+</input_config>
